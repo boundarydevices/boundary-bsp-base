@@ -160,9 +160,6 @@ LICENSE_FLAGS_WHITELIST = "commercial"
 DL_DIR ?= '/opt/freescale/yocto/imx/'
 SSTATE_DIR ?= '/opt/freescale/yocto/sstate-cache'
 
-BB_NUMBER_THREADS = '4'
-PARALLEL_MAKE = '-j 4'
-
 EOF
     # Change settings according environment
     sed -e "s,MACHINE ??=.*,MACHINE ??= '$MACHINE',g" \
