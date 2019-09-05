@@ -155,6 +155,8 @@ if [ "$build_dir_setup_enabled" = "true" ]; then
     grep -v '^#\|^$' conf/local.conf.sample > conf/local.conf
     cat >> conf/local.conf <<EOF
 
+LICENSE_FLAGS_WHITELIST = "commercial"
+
 DL_DIR ?= "\${BSPDIR}/downloads/"
 SSTATE_DIR ?= "\${BSPDIR}/sstate-cache/"
 EOF
