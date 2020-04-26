@@ -1,4 +1,4 @@
-Boundary Devices Yocto Zeus BSP
+Boundary Devices Yocto Master BSP
 ===============================
 
 Quick Start Guide
@@ -48,3 +48,23 @@ The following layers are included on this release:
    Path: sources/meta-boundary
    Project: https://github.com/boundarydevices/meta-boundary
    GIT: git@github.com:boundarydevices/meta-boundary.git
+
+ * meta-browser: support for web browsers (chrome and firefox)
+   Path: sources/meta-browser
+   GIT: https://github.com/OSSystems/meta-browser
+   Mailing list: openembedded-devel@lists.openembedded.org
+   Note: Use [meta-browser] in subject to easy the processing
+
+ * meta-rust: extra packages and features
+   Path: sources/meta-rust
+   GIT: https://github.com/meta-rust/meta-rust
+
+ * meta-rust: extra packages and features
+   Path: sources/meta-clang
+   GIT: https://github.com/kraj/meta-clang
+
+ * meta-qt5: qt5 packages and libraries
+   Path: sources/meta-qt5
+   GIT: https://code.qt.io/cgit/yocto/meta-qt5
+
+
