@@ -44,6 +44,12 @@ The following layers are included on this release:
    Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
    Note: Use [distro] in subject to easy the processing
 
+ * meta-freescale-ml: support for building Machine learning and AI applications and related software.
+   Path: sources/meta-freescale-ml
+   Project: https://github.com/Freescale/meta-freescale-ml
+   GIT: git://github.com/Freescale/meta-freescale-ml.git
+   Mailing list: https://lists.yoctoproject.org/listinfo/meta-freescale
+
  * meta-boundary: Boundary Devices custom drivers/apps/modifications
    Path: sources/meta-boundary
    Project: https://github.com/boundarydevices/meta-boundary
