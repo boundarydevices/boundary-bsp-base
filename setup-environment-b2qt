@@ -156,6 +156,7 @@ if [ "$build_dir_setup_enabled" = "true" ]; then
     cat >> conf/local.conf <<EOF
 
 LICENSE_FLAGS_WHITELIST = "commercial"
+CONNECTIVITY_CHECK_URIS = ""
 
 DL_DIR ?= "\${BSPDIR}/downloads/"
 SSTATE_DIR ?= "\${BSPDIR}/sstate-cache/"
