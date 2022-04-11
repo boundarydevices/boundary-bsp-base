@@ -25,6 +25,5 @@ BBLAYERS = " \
   ${BSPDIR}/sources/meta-boot2qt/meta-boot2qt-distro \
   \
   ${BSPDIR}/sources/meta-mingw \
-  ${BSPDIR}/sources/meta-python2 \
   ${BSPDIR}/sources/meta-boundary \
 "
