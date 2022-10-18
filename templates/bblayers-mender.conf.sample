@@ -18,8 +18,6 @@ BBLAYERS = " \
   ${BSPDIR}/sources/meta-freescale-3rdparty \
   ${BSPDIR}/sources/meta-freescale-distro \
   \
-  ${BSPDIR}/sources/meta-qt5 \
-  \
   ${BSPDIR}/sources/meta-boundary \
   \
   ${BSPDIR}/sources/meta-mender/meta-mender-core \
