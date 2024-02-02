@@ -18,10 +18,12 @@ BBLAYERS = " \
   ${BSPDIR}/sources/meta-freescale-3rdparty \
   ${BSPDIR}/sources/meta-freescale-distro \
   \
+  ${BSPDIR}/sources/meta-browser/meta-chromium \
+  ${BSPDIR}/sources/meta-clang \
+  \
   ${BSPDIR}/sources/meta-boundary \
   \
   ${BSPDIR}/sources/meta-mender/meta-mender-core \
   ${BSPDIR}/sources/meta-mender/meta-mender-demo \
   ${BSPDIR}/sources/meta-mender-community/meta-mender-nxp \
 "
-
